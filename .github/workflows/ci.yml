@@ -1,5 +1,4 @@
 name: Run Automated Validation
-run: bash tests/validate.sh
 
 on:
   push:
@@ -32,5 +31,4 @@ jobs:
           echo "Required files/directories exist."
 
       - name: Run basic validation
-        run: |
-          echo "CI validation completed successfully." 
+        run: bash tests/validate.sh
