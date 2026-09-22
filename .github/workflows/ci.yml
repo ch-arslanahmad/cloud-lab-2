@@ -1,4 +1,5 @@
-name: CI
+name: Run Automated Validation
+run: bash tests/validate.sh
 
 on:
   push:
